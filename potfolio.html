@@ -2,37 +2,38 @@
 <html>
     <head>
         <title>My Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
     </head>
     <body>
         <!--This is a comment-->
-        <h1>c'est moi</h1>
-        <h2>futur Développeur</h2>
-        <h3>gomycode</h3>
+        <h1>Ayachi Mounir</h1>
+        <h2 class="title">futur Développeur</h2>
+        <h2 class="title">gomycode</h2>
         <!-- Paragraph tag-->
         <p>
             <span>definition</span>
             En informatique, un développeur (ou programmeur) est un informaticien qui réalise des logiciels en créant des algorithmes et en les mettant en œuvre dans un langage de programmation.
         </p>
         <!-- HyperText-->
-        <a href="mailto:ayechimounir85@yahoo.fr">Mail me</a>
-        <a href="tel:0021629168468"> Call me </a>
+        <div>
+        <a class="icone" href="mailto:ayechimounir85@yahoo.fr">Mail me</a>
+        <a class="icone" href="tel:0021629168468"> Call me </a>
+        <div>
         <a href="https://www.google.com">Google</a>
+        </div>
         <!-- Img-->
         />
+        <div>
         <img
             src="1666694976242.jpg"
             width="200"
             height="200"
             alt="'image from desktop"
         />
-        <!-- Video from youtube-->
-        <iframe
-            width="200"
-            height="200"
-            src="https://youtube/S_SU4gKoO-o"
-        ></iframe>
-        <!-- Video-->
-        <video
+        </div>
+        <div class="end">
+            <video
             width="200"
             height="200"
             controls
@@ -62,52 +63,45 @@
                 <li>Item 1</li>
                 <li>Item 2</li>
                 <li>Item 3</li>
-            </dd>
-            <dd>Work</dd>
+            </dd> 
             <dt>Mardi</dt>
             <dd>Courses</dd>
             <dd>Work</dd>
         </dl>
         <!-- Table-->
-        <table border="2px">
+        <table border="10px">
             <thead>
                 <tr>
-                    <th>First Name</th>
-                    <th>Last Name</th>
-                    <th>Age</th>
+                    <th class="tableau">First Name</th>
+                    <th class="tableau">Last Name</th>
+                    <th class="tableau">Age</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>mounir</td>
-                    <td>ayachi</td>
-                    <td>37</td>
+                    <td class="tableau">mounir</td>
+                    <td class="tableau">ayachi</td>
+                    <td class="tableau">37</td>
                 </tr>
             <tbody>
         </table>
         <!-- Form-->
+        <section>
+            <h2>Contact Me</h2>
+        </section>
         <form>
-            <label>Email</label>
+            <p class="colone">Email</p>
             <input type="email" name="email" />
             <br />
-            <label>Password</label>
+            <p class="colone">Password</p>
             <input type="password" name="password" />
             <br />
-            <label>Age</label>
+            <p class="colone">Age</p>
             <input type="number" name="age" />
             <br />
-            <label>Description</label>
+            <p class="colone">Description</p>
             <input type="text" name="description" />
-            <br />
-            <p>Check the right answer</p>
-            <label>Yes</label>
-            <input type="radio" name="answer" value="1" />
-            <label>No</label>
-            <input type="radio" name="answer" value="0" />
-            <label>CheckBox</label>
-            <input type="checkbox" />
-            <input type="image" />
-            <br />
+            <br/>
         </form>
         <nav>
             <ul>
@@ -119,12 +113,7 @@
 
         <section>
             <h2>About me</h2>
-            <img
-                src="./assets/Fichier 1.png"
-                alt="img"
-                width="150"
-                height="150"
-            />
+
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
                 quod, voluptatum, quia, voluptas quas voluptatem quibusdam
@@ -140,27 +129,8 @@
                 <li>CSS</li>
                 <li>JS</li>
             </ul>
-            <video src="./assets/spotFr.mp4"></video>
-        </section>
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <form>
-                <label>Email</label>
-                <input type="email" name="email" />
-                <br />
-                <label>Password</label>
-                <input type="password" name="password" />
-                <br />
-                <label>Age</label>
-                <input type="number" name="age" />
-                <br />
-                <label>Message</label>
-                <textarea></textarea>
-                <br />
-                <br />
-            </form>
-        </section>
-        <footer>
+        
+        <footer id="footer">
             <p>ayachi mounir</p>
             <p>2022</p>
         </footer>

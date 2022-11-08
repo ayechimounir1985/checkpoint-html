@@ -1,0 +1,39 @@
+h1 {color: brown;border: 0ch;
+
+}
+p{
+border: 2px solid;color: black;
+}
+
+.title{
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    text-align: justify;
+
+}
+.video{align-items: flex-end
+    ;}
+
+    .centered{
+        text-align: center;
+    }
+  
+
+    body{
+        background-image: url('https://static-cse.canva.com/blob/788221/1600w-VwJMC37j5jQ.jpg');
+        background-size: 400%,400%;
+        font-style: italic;
+        color:black;
+        text-align: justify;
+        font-family: 'Roboto', sans-serif;
+    }
+    .tableau{
+        color: brown;text-decoration: overline;
+    }
+    .colone{
+        width: 200px;
+    }
+    #footer{
+        width: 100px;height: 100px;
+    }
